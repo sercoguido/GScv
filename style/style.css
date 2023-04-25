@@ -417,20 +417,28 @@ footer{
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 
     header{
-        height: 43rem;
+        height: 39rem;
         background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2_700.jpg');
     }
-
     .logo{
         margin: 1rem 0 0 2rem;
-        height: 5rem;
+        height: 4rem;
     }
-
     .divTextoHeader{
         margin: 0 0 0 2rem;
+    }
+    .textoHeader{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .textoHeaderSecu{
+        font-size: 1.5rem;
+    }
+    .secciones{
+        padding-top: 10rem;
     }
 
 }
