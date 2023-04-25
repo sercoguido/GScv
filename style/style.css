@@ -420,8 +420,9 @@ footer{
 @media screen and (max-width: 750px) {
 
     header{
-        height: 39rem;
+        height: 47rem;
         background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2_700.jpg');
+        background-position:right;
     }
     .logo{
         margin: 1rem 0 0 2rem;
