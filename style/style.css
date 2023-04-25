@@ -1,0 +1,436 @@
+/*rgb(18,67,153);*/
+*{
+    font-family: aerolightitalic;
+    margin: 0;
+}
+body {
+    background-color: #272727; 
+    width: 100%;
+}
+
+header{
+    width: auto;
+    height: 49rem;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2.jpg');
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.divTextoHeader{
+    margin: 0 0 0 5rem;
+}
+
+.textoHeader{
+    font-family: aerolightitalic;
+    color: rgb(18,67,153);
+    font-size: 4rem;
+    display: inline-block;
+    margin: 0;
+}
+
+.textoHeaderSecu{
+    font-family: aerolight;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    display: inline-block;
+    margin: 0;
+}
+
+main{
+    margin: 5rem 10rem 0 10rem;
+}
+
+.spanblanco{
+    color: rgb(255, 255, 255);
+}
+
+.secciones{
+    padding-top: 15rem;
+}
+
+.logo{
+    margin: 1rem 0 0 5rem;
+    height: 5rem;
+    transition: all 0.3s;
+}
+.logo:hover{
+    transform: scale(1.01);
+}
+
+.tituloTextos{
+    font-family: aeromedium;
+    letter-spacing: 0.3rem;
+    color: rgb(18,67,153);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.textoTextos{
+    font-family: aerolight;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.contenedorRecorrido{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+
+.divRecorrido{
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    margin: 2rem 4rem 5rem 0;
+    overflow: hidden;
+    padding-left: 1.5rem;
+    border-left: 0.1rem solid #4b4b4b;
+}
+
+.titulosRecorrido{
+    font-family: aeromedium;
+    color: rgb(18,67,153);
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.añoRecorrido{
+    display: inline-block;
+    font-family: aeromedium;
+    color: #4b4b4b;
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-weight: 900;
+}
+
+.lugarRecorrido{
+    font-family: aerolight;
+    color: #4b4b4b;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.textoRecorrido{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-left: 0.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.linea {
+    display: inline-block;
+    width: 70%;
+    border-bottom: 0.15rem solid #4b4b4b;
+    margin: 0 0 0 1rem;
+}
+
+
+
+.certificadolink{
+    text-decoration: none;
+    display: flex;
+}
+
+.contcertificadolink{
+    display: inline-block;
+}
+
+
+.certificado{
+    font-size: 0.8rem;
+    margin: 2rem 0 0 0;
+    font-family: aerolight;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(18,67,153);
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    border-radius: 0.5rem;
+}
+.certificado:hover{
+    background-color: rgb(16, 61, 139);
+}
+
+.certificadoencurso{
+    font-size: 0.8rem;
+    margin: 2rem 0 0 0;
+    font-family: aerolight;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(18,67,153);
+    padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+    border-radius: 0.5rem;
+    user-select: none;
+}
+.certificadoencurso:hover{
+    background-color: rgb(16, 61, 139);
+}
+
+
+
+
+
+
+.tituloHabilidades{
+    font-family: aeroregular;
+    color:white;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+    margin-bottom: 0;
+}
+
+
+.contenedorHabilidades{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorHabilidadesext{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedoratributos{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.atributoHabilidades{
+    font-family: 'Roboto';
+    color:white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    letter-spacing: 0.4rem;
+}
+
+.porcentajeHabilidades{
+    font-family: 'Roboto';
+    color:white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.lineasprogreso{
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-image: linear-gradient(to top, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fondofooter.jpg');
+    background-position:center;
+    height: 41rem;
+    margin-top: 20rem;
+    box-shadow: 0px 10px 10px -10px rgba(0,0,0,0.5);
+    width: 100%;
+}
+
+.divFooter{
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.titulofooter{
+    font-family: aeromedium;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorfooter{
+    margin-top: 10rem;
+}
+
+.infofooter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+}
+
+.contenedorredes{
+    display: flex;
+}
+
+.textoinfofooter{
+    color: rgb(251, 251, 251);
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+}
+.textomininfofooter{
+    color:white;
+    font-weight: 900;
+    font-size: 1.3rem;
+    margin-bottom: -0.2rem;
+}
+
+.textoinferiorfooter{
+    color:white;
+    font-family: 'Roboto';
+    margin-top: 3rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.iconosredesfooter{
+    height: 3rem;
+    transition: all 0.2s;
+}
+.iconosredesfooter:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+.formulariofooter{
+    width: 40%;
+}
+.textocolor{
+    color: white;
+    margin-top: 0.5rem;
+    font-family: 'Roboto';
+    margin-bottom: 0.5rem;
+}
+.btncolor{
+    background-color: rgb(16, 61, 139);
+    color: white;
+    margin-top: 1rem;
+}
+.btncolor:hover{
+    background-color: white;
+    color: #4b4b4b;
+}
+.formcolor{
+    opacity: 0.2;
+}
+.ancholabel{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1730px) {
+
+    .contenedorHabilidadesext{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    main{
+        margin: 0 6rem 0 6rem;
+    }
+
+}
+
+
+@media screen and (max-width: 1210px) {
+
+    .contenedorRecorrido{
+        margin-top: 6rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    main{
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .divRecorrido{
+        position: relative;
+        width: 20rem;
+        height: auto;
+        margin: 1rem 2rem 5rem 0;
+        overflow: hidden;
+        padding-left: 1rem;
+        border-left: 0.1rem solid #4b4b4b;
+    }
+
+    .infofooter{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .contenedorredes{
+        justify-content: center;
+    }
+
+    header{
+        height: 47rem;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2_1210.jpg');
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    header{
+        height: 43rem;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #272727 100%), url('../img/fotoprincipalbyn2_700.jpg');
+    }
+
+    .logo{
+        margin: 1rem 0 0 2rem;
+        height: 5rem;
+    }
+
+    .divTextoHeader{
+        margin: 0 0 0 2rem;
+    }
+
+}
