@@ -11,7 +11,7 @@
         <!-- LINK DE BOOTSTRAP EN HEAD (ANTES QUE EL DE CSS) -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
 
-         <!-- IMPORTANDO CSS -->
+        <!-- IMPORTANDO CSS -->
         <link rel="stylesheet" href="./style/style.css">
 
         <!-- IMPORTANDO FUENTES -->
@@ -53,20 +53,65 @@
 <body>
     <header>
         <nav>
-          <div>
+        <div>
             <div><a href="index.html"><img class="logo" alt="Logo Guido Sercovich Web | Responsive CV" src="img/Logo.png" alt="LogoGuido S."></a></div>
+        </div>
+
+        <div class="navbar navbar-expand-md navbar-dark bg-dark barraNavegacion">
+            <div class="container-fluid">
+            <!-- boton del menu -->
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- elementos del menu colapsable -->
+    
+            <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                <a class="nav-link articuloMenu " aria-current="page" href="#sobreMi">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link articuloMenu" href="#recorridoIT">Recorrido Mundo IT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link articuloMenu" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link articuloMenu" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+    
+            <hr class="d-md-none text-white-50"> 
+    
             </div>
+        
+            </div>  
+        </div>
         </nav>
+
+
+
+
+
+
+
+
+
 
         <div class="divTextoHeader">
         <p class="textoHeader">Hola<p class="textoHeaderSecu">,</p><br><p class="textoHeaderSecu">Soy<b> Training </b>y este es mi primer sitio web.</p></p>
         </div>
-
     </header>
 
 
 
+
+
+
     <main>
+        <div id="sobreMi"></div>
         <div class="secciones">
             <h2 class="tituloTextos" name="mi-titulo">Sobre Mi</h2>
             <p class="textoTextos">
@@ -84,6 +129,7 @@
             </p>
         </div>
 
+            <div id="recorridoIT"></div>
         <div class="secciones">
             <h2 class="tituloTextos">Mi Recorrido En El Mundo Del IT</h2>
             <p class="textoTextos">Siempre supe que mi Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dignissimos ut maiores assumenda error, cupiditate deserunt ipsam est eveniet similique consequuntur numquam voluptatibus quo beatae nemo voluptates voluptatem praesentium ad!
@@ -136,7 +182,7 @@
             
             
         </div>
-
+        <div id="habilidades"></div>
         <div class="secciones">
             <h2 class="tituloTextos">Mis Habilidades</h2>
             <h4 class="tituloHabilidades">Idiomas</h4>
@@ -207,6 +253,7 @@
 
 
     <footer>
+        <div id="contacto"></div>
         <div class="divFooter">
             <h4 class="titulofooter">CONTACTAME</h4>
         </div>
