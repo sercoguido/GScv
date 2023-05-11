@@ -1,6 +1,6 @@
 /*rgb(18,67,153);*/
 *{
-    font-family: aerolightitalic;
+    font-family: roboto;
     margin: 0;
 }
 body {
@@ -29,9 +29,19 @@ nav{
     margin: 2rem;
 }
 
-.articuloMenu:hover{
-    color: rgb(18,67,153);
-    font-weight: 900;
+.articuloMenu{
+    margin-right: 1rem;
+}
+
+.navbar-nav li {
+    width: 11rem;
+    display: inline-block;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 0.1rem solid #2d5ec0;
 }
 
 .divTextoHeader{
@@ -304,6 +314,7 @@ footer{
     margin-bottom: 2rem;
     letter-spacing: 0.2rem;
 }
+
 .textomininfofooter{
     color:white;
     font-weight: 900;
