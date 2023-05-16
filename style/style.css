@@ -49,7 +49,7 @@ nav{
 }
 
 .textoHeader{
-    font-family: aerolightitalic;
+    font-family: Montserrat;
     color: rgb(18,67,153);
     font-size: 4rem;
     display: inline-block;
@@ -57,7 +57,7 @@ nav{
 }
 
 .textoHeaderSecu{
-    font-family: aerolight;
+    font-family: Montserrat;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     display: inline-block;
@@ -86,7 +86,7 @@ main{
 }
 
 .tituloTextos{
-    font-family: aeromedium;
+    font-family: Montserrat;
     letter-spacing: 0.3rem;
     color: rgb(18,67,153);
     font-size: 1.7rem;
@@ -95,14 +95,14 @@ main{
 }
 
 .textoTextos{
-    font-family: aerolight;
+    font-family: Montserrat;
     color: white;
     font-size: 1.2rem;
     margin-bottom: 0;
 }
 
 .contenedorRecorrido{
-    margin-top: 2rem;
+    margin-top: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
@@ -120,7 +120,7 @@ main{
 }
 
 .titulosRecorrido{
-    font-family: aeromedium;
+    font-family: Montserrat;
     color: rgb(18,67,153);
     font-size: 1.3rem;
     font-weight: 900;
@@ -129,7 +129,7 @@ main{
 
 .añoRecorrido{
     display: inline-block;
-    font-family: aeromedium;
+    font-family: Montserrat;
     color: #4b4b4b;
     font-size: 1.2rem;
     margin-bottom: 0.2rem;
@@ -137,7 +137,7 @@ main{
 }
 
 .lugarRecorrido{
-    font-family: aerolight;
+    font-family: Montserrat;
     color: #4b4b4b;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
@@ -175,7 +175,7 @@ main{
 .certificado{
     font-size: 0.8rem;
     margin: 2rem 0 0 0;
-    font-family: aerolight;
+    font-family: Montserrat;
     color: white;
     text-decoration: none;
     position: absolute;
@@ -192,7 +192,7 @@ main{
 .certificadoencurso{
     font-size: 0.8rem;
     margin: 2rem 0 0 0;
-    font-family: aerolight;
+    font-family: Montserrat;
     color: white;
     text-decoration: none;
     position: absolute;
@@ -213,7 +213,7 @@ main{
 
 
 .tituloHabilidades{
-    font-family: aeroregular;
+    font-family: Montserrat;
     color:white;
     font-size: 1.7rem;
     margin-top: 6rem;
@@ -282,7 +282,7 @@ footer{
 }
 
 .titulofooter{
-    font-family: aeromedium;
+    font-family: Montserrat;
     color: rgb(255, 255, 255);
     letter-spacing: 0.3rem;
     margin-top: 1rem;
@@ -317,7 +317,7 @@ footer{
 
 .textomininfofooter{
     color:white;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1.3rem;
     margin-bottom: -0.2rem;
 }
