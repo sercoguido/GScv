@@ -259,19 +259,19 @@
 
             <div id="formulario">
                 <div class="secciones">
-            <h2 class="tituloTextos">Formulario de Contacto</h2>
-            <form action="#" method="POST">
-                <label for="nombre_formulario" class="atributo_formulario">Nombre:</label>
-                <input type="text" id="nombre_formulario" name="nombre_formulario" required>
-            
-                <label for="email_formulario" class="atributo_formulario">Correo Electrónico:</label>
-                <input type="email" id="email_formulario" name="email_formulario" required>
-            
-                <label for="mensaje_formulario" class="atributo_formulario">Mensaje:</label>
-                <textarea id="mensaje_formulario" name="mensaje_formulario" rows="4" required></textarea>
-            
-                <button type="submit">Enviar</button>
-            </form>
+                    <h2 class="tituloTextos">Formulario de Contacto</h2>
+                    <form>
+                        <label for="nombre_formulario" class="atributo_formulario">Nombre:</label>
+                        <input type="text" id="nombre_formulario" name="nombre_formulario" required>
+                    
+                        <label for="email_formulario" class="atributo_formulario">Correo Electrónico:</label>
+                        <input type="email" id="email_formulario" name="email_formulario" required>
+                    
+                        <label for="mensaje_formulario" class="atributo_formulario">Mensaje:</label>
+                        <textarea id="mensaje_formulario" name="mensaje_formulario" rows="4" required></textarea>
+                    
+                        <button type="button" id="enviar_formulario" onclick="mostrarMensaje()">Enviar</button>
+                    </form>
             </div>
         </div>
         </div>
@@ -303,6 +303,8 @@
 
     </div>
     </footer>
+    <!-- IMPORTANDO JAVASCRIPT PROPIO -->
+    <script src="./script.js"></script>
 
     <!-- SCRIPT JS DE BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
