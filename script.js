@@ -1,4 +1,4 @@
-function mostrarMensaje() {
+function MostrarMensaje() {
     // Captura el valor del input de nombre
     var nombre = document.getElementById('nombre_formulario').value;
 
